@@ -1,0 +1,13 @@
+.single-product {
+  .price {
+    color: $mainColor;
+  }
+  .quantity {
+    background: $mainColor;
+    color: #fff;
+    padding: 10px 8px;
+    small {
+      cursor: pointer;
+    }
+  }
+}

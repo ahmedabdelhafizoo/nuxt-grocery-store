@@ -1,0 +1,13 @@
+body {
+  background: $grayColor;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  &.disabled {
+    opacity: .5;
+    pointer-events: none;
+  }
+}

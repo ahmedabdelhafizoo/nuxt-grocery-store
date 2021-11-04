@@ -1,0 +1,17 @@
+.form {
+  &__input {
+    border: 1px solid $grayColor;
+    background: $grayColor;
+    border-radius: 3px;
+    outline: none;
+    min-height: 40px;
+    width: 100%;
+    padding: 10px;
+    transition: border 0.5s;
+    font-size: 15px;
+
+    &:focus {
+      border-color: $mainColor;
+    }
+  }
+}
